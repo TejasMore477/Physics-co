@@ -25,24 +25,26 @@ function Downlode() {
               </span>
             </div>
           </Link>
-          <img
+          {/* <img
             data-scroll
             data-scroll-section
             data-scroll-speed="0.1"
             className="h-full w-full object-cover object-center  rounded-xl "
             src="src/assets/images/homibhabha8.webp"
             alt=""
-          />
+          /> */}
+          <div data-scroll data-scroll-section data-scroll-speed="0.1" className="h-full w-full rounded-xl bg-photograph1 bg-center bg-cover"></div>
         </div>
         <div className="w-[35%] h-full rounded-xl overflow-hidden flex flex-col items-center justify-between">
-          <img
+          {/* <img
             data-scroll
             data-scroll-section
             data-scroll-speed="0.1"
             className="h-[85%] w-full object-cover object-top rounded-xl  "
             src="src/assets/images/Indian-physicist-CV-Raman-1930.webp"
             alt=""
-          />
+          /> */}
+          <div data-scroll data-scroll-section data-scroll-speed="0.1" className="h-[85%] w-full rounded-xl bg-photograph2 bg-top bg-cover"></div>
           <Link to={"/class12"} className="w-full mb-4 relative group ">
             <h2 className="text-3xl group-hover:text-gray-600 w-[80%] font-extrabold text-white tracking-tighter ease-in duration-300 cursor-pointer">
               {" "}
