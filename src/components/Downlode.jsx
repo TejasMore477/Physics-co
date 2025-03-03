@@ -1,6 +1,6 @@
 import React from "react";
 import { FaDownload } from "react-icons/fa6";
-import { Link } from "react-router-dom";
+import { Link } from "react-router-dom"; 
 
 function Downlode() {
   return (
