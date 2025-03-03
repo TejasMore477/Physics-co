@@ -10,9 +10,9 @@ function Home() {
     <div data-scroll data-scroll-section className='w-full h-fit bg-black'>
         <Nav />
         <Landing />
-        {/* <Eleventh /> */}
-        {/* <Twelfth /> */}
-        {/* <Footer /> */}
+        <Eleventh />
+        <Twelfth />
+        <Footer />
     </div>
   )
 }
