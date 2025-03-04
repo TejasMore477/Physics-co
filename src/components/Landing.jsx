@@ -1,11 +1,11 @@
 import React from 'react'
 function Landing() {
   return (
-    <div data-scroll data-scroll-section className='w-full h-[90vh] py-8 px-16 flex items-center justify-center'>
+    <div data-scroll data-scroll-section className='w-full h-[90vh] py-8 px-13  flex items-center justify-center'>
         <div className='relative w-1/2 h-full flex flex-col items-start justify-center'>
 
-           <h1 className='text-white text-7xl text-start w-full font-bold'>Downlode Physics Notes, PYQ's, Question Banks & more...</h1>
-           <p className='text-white font-thin mt-3 text-left'>FOR Free!</p>
+           <h1 className='text-white text-[4vw] text-start w-full font-bold'>Downlode Physics Notes, PYQ's, Question Banks & more...</h1>
+           <p className='text-white text-md font-thin mt-3 text-left'>For Free!</p>
 
             <p className='absolute bottom-[5%] text-xs font-extralight text-white'>Scroll Down </p>
         </div>

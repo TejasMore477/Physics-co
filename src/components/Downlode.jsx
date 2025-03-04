@@ -10,10 +10,11 @@ function Downlode() {
       className="w-full h-screen  text-white px-16 pt-20 mb-32"
     >
       <h1 className="text-xl text-right">Materials</h1>
-      <div className="mt-8 h-[80vh] w-full flex items-center justify-center gap-8 px-16">
+
+      <div className="mt-8 h-[80vh] w-full flex items-center justify-center gap-8 px-13">
         <div className="w-[35%] h-full rounded-xl overflow-hidden">
           <Link to={"/class11"} className="w-full mb-4 relative group">
-            <h2 className="text-3xl group-hover:text-gray-900 w-[80%] font-extrabold text-white tracking-tighter ease-in duration-300 cursor-pointer">
+            <h2 className="text-[2vw] group-hover:text-gray-400 w-[80%] font-extrabold text-white tracking-tighter ease-in duration-300 cursor-pointer">
               {" "}
               Click here to download{" "}
               <span className="text-orange-600">Class 11th </span> Study
@@ -25,28 +26,13 @@ function Downlode() {
               </span>
             </div>
           </Link>
-          {/* <img
-            data-scroll
-            data-scroll-section
-            data-scroll-speed="0.1"
-            className="h-full w-full object-cover object-center  rounded-xl "
-            src="src/assets/images/homibhabha8.webp"
-            alt=""
-          /> */}
+
           <div data-scroll data-scroll-section data-scroll-speed="0.1" className="h-full w-full rounded-xl bg-photograph1 bg-center bg-cover"></div>
         </div>
         <div className="w-[35%] h-full rounded-xl overflow-hidden flex flex-col items-center justify-between">
-          {/* <img
-            data-scroll
-            data-scroll-section
-            data-scroll-speed="0.1"
-            className="h-[85%] w-full object-cover object-top rounded-xl  "
-            src="src/assets/images/Indian-physicist-CV-Raman-1930.webp"
-            alt=""
-          /> */}
           <div data-scroll data-scroll-section data-scroll-speed="0.1" className="h-[85%] w-full rounded-xl bg-photograph2 bg-top bg-cover"></div>
           <Link to={"/class12"} className="w-full mb-4 relative group ">
-            <h2 className="text-3xl group-hover:text-gray-600 w-[80%] font-extrabold text-white tracking-tighter ease-in duration-300 cursor-pointer">
+            <h2 className="text-[2vw] group-hover:text-gray-400 w-[80%] font-bold text-white tracking-tighter ease-in duration-300 cursor-pointer">
               {" "}
               Click here to download{" "}
               <span className="text-orange-600">Class 12th </span> Study
