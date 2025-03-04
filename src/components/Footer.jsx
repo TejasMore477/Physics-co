@@ -13,7 +13,7 @@ function Footer() {
       </div>
       <div className='w-full flex flex-col justify-between border-t-2 border-gray-800'>
         <div className='w-full h-[70vh] '>
-            <h1 className='mb-4 font-extrabold text-[12rem] text-balck cursor-pointer text-white'>Physics<span className='text-7xl text-orange-500'>.co</span></h1>
+            <h1 className='mb-4 font-extrabold text-[14rem] text-balck cursor-pointer text-white'>Physics<span className='text-7xl text-orange-500'>.co</span></h1>
             <p className='w-1/2 text-gray-500 text-md mt-10'>We are providong something unique, useful and most impoertant fun.By giving students a too to find instant solutions to their studies, We are trying to make every student self-sufficient in practicing and completing their homework</p>
         </div>
         <p className='text-white font-extralight text-sm text-center'>©.All right resierved</p>
