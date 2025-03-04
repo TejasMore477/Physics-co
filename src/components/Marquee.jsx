@@ -6,7 +6,7 @@ function Marquee() {
   const marquee2 = ["Wave Optics","Atoms and Nuclei","Atoms and Nuclei","Ray Optics","Current Electricity","Alternating Current","Semiconductors","Dual Nature of Radiation"]
  
   let marqueeElem = Array.from({length:4}).map((ele,index)=>(
-  <motion.h1 initial={{x:0}} animate={{x:"-100%"}} transition={{ease:"linear", repeat:Infinity, duration:20}} key={index} className=' text-xl font-light font-title pr-10 flex items-center gap-7'>{marquee1.map((elem,index)=><h3 key={index}>{elem}</h3>)}</motion.h1>
+  <motion.h1 initial={{x:0}} animate={{x:"-100%"}} transition={{ease:"linear", repeat:Infinity, duration:20}} key={index} className=' text-xl font-light font-title pr-10 flex items-center gap-7'>{marquee1.map((elem,index)=><span key={index}>{elem}</span>)}</motion.h1>
  ))
 
  let marqueeElem2 = Array.from({length: 4}).map((ele, index) => (
@@ -17,7 +17,7 @@ function Marquee() {
     key={index} 
     className='text-xl font-light font-title pr-10 flex items-center gap-7'
   >
-    {marquee2.map((elem, index) => <h3 key={index}>{elem}</h3>)}
+    {marquee2.map((elem, index) => <span key={index}>{elem}</span>)}
   </motion.h1>
 ));
 
