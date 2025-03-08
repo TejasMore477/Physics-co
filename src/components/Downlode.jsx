@@ -12,7 +12,7 @@ function Downlode() {
       <h1 className="text-xl text-right">Materials</h1>
 
       <div className="mt-8 h-[80vh] w-full flex items-center justify-center gap-8 px-13">
-        <div className="w-[35%] h-full rounded-xl overflow-hidden">
+        <div className="xl:w-[35%] lg:w-[40%] h-full rounded-xl overflow-hidden">
           <Link to={"/class11"} className="w-full mb-4 relative group">
             <h2 className="text-[2vw] group-hover:text-gray-400 w-[80%] font-extrabold text-white tracking-tighter ease-in duration-300 cursor-pointer">
               {" "}
@@ -29,7 +29,7 @@ function Downlode() {
 
           <div data-scroll data-scroll-section data-scroll-speed="0.1" className="h-full w-full rounded-xl bg-photograph1 bg-center bg-cover"></div>
         </div>
-        <div className="w-[35%] h-full rounded-xl overflow-hidden flex flex-col items-center justify-between">
+        <div className="xl:w-[35%] lg:w-[40%] h-full rounded-xl overflow-hidden flex flex-col items-center justify-between">
           <div data-scroll data-scroll-section data-scroll-speed="0.1" className="h-[85%] w-full rounded-xl bg-photograph2 bg-top bg-cover"></div>
           <Link to={"/class12"} className="w-full mb-4 relative group ">
             <h2 className="text-[2vw] group-hover:text-gray-400 w-[80%] font-bold text-white tracking-tighter ease-in duration-300 cursor-pointer">

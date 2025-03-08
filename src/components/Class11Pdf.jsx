@@ -18,10 +18,10 @@ function Class11Pdf() {
 
       <h2 className='text-3xl font-bold text-orange-500 text-center'>Class 11th Material</h2>
 
-      <div className='mt-10 grid grid-cols-5 gap-5'>
+      <div className='mt-10 grid xl:grid-cols-5 lg:grid-cols-4 gap-5'>
         {class11Data ? (
           class11Data.map((chap, index) => (
-            <div key={index} className='w-56 h-[40vh] border-[1px] border-gray-900'>
+            <div key={index} className='xl:w-56 lg:w-52 h-[40vh] border-[1px] border-gray-900'>
               <h2 className='w-full text-center font-bold text-md mt-3'>{chap.chapter}</h2>
               <div className='mt-4 border-t-[1px] border-gray-700 py-4'>
                 {Object.entries(chap.material).map(([mat, url], index) => (

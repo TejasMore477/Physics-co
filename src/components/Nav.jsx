@@ -6,7 +6,7 @@ import { TiThMenu } from "react-icons/ti";
 function Nav() {
   return (
     <motion.div 
-    className='w-full h-[10vh] py-4 sm:px-16 px-4 text-white flex items-center justify-between overflow-hidden'
+    className='w-full h-[10vh] py-4 lg:px-16 sm:px-16 px-4 text-white flex items-center justify-between overflow-hidden'
     >
         <h1 className='font-extrabold sm:text-3xl text-2xl text-balck cursor-pointer'>Physics<span className='text-2xl text-orange-500'>.co</span></h1>
         <div className='flex items-center sm:justify-center sm:gap-10'>
