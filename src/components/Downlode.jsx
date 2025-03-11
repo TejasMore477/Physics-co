@@ -7,20 +7,20 @@ function Downlode() {
     <div
       data-scroll
       data-scroll-section
-      className="w-full h-screen  text-white px-16 pt-20 mb-32"
+      className="w-full h-screen  text-white px-16 pt-20 lg:mb-32 mb-0"
     >
       <h1 className="text-xl text-right">Materials</h1>
 
       <div className="mt-8 h-[80vh] w-full flex items-center justify-center gap-8 px-13">
-        <div className="xl:w-[35%] lg:w-[40%] h-full rounded-xl overflow-hidden">
+        <div className="xl:w-[35%] lg:w-[40%] md:w-[50%] h-full rounded-xl overflow-hidden">
           <Link to={"/class11"} className="w-full mb-4 relative group">
-            <h2 className="text-[2vw] group-hover:text-gray-400 w-[80%] font-extrabold text-white tracking-tighter ease-in duration-300 cursor-pointer">
+            <h2 className="lg:text-[2vw] text-[3vw] group-hover:text-gray-400 w-[80%] font-extrabold text-white tracking-tighter ease-in duration-300 cursor-pointer">
               {" "}
               Click here to download{" "}
               <span className="text-orange-600">Class 11th </span> Study
               Material
             </h2>
-            <div className="size-6 grid place-content-center group-hover:scale-150 bg-orange-600 rounded-full absolute right-[10%] top-[50%] -translate-y-[50%] ease-in duration-300 cursor-pointer">
+            <div className="lg:size-6 size-8 grid place-content-center group-hover:scale-150 bg-orange-600 rounded-full absolute right-[10%] top-[50%] -translate-y-[50%] ease-in duration-300 cursor-pointer">
               <span className="text-sm text-black font-bold">
                 <FaDownload />
               </span>
@@ -29,16 +29,17 @@ function Downlode() {
 
           <div data-scroll data-scroll-section data-scroll-speed="0.1" className="h-full w-full rounded-xl bg-photograph1 bg-center bg-cover"></div>
         </div>
-        <div className="xl:w-[35%] lg:w-[40%] h-full rounded-xl overflow-hidden flex flex-col items-center justify-between">
+
+        <div className="xl:w-[35%] lg:w-[40%] md:w-[50%] h-full rounded-xl overflow-hidden flex flex-col items-center justify-between">
           <div data-scroll data-scroll-section data-scroll-speed="0.1" className="h-[85%] w-full rounded-xl bg-photograph2 bg-top bg-cover"></div>
           <Link to={"/class12"} className="w-full mb-4 relative group ">
-            <h2 className="text-[2vw] group-hover:text-gray-400 w-[80%] font-bold text-white tracking-tighter ease-in duration-300 cursor-pointer">
+            <h2 className="lg:text-[2vw] text-[3vw] group-hover:text-gray-400 w-[80%] font-bold text-white tracking-tighter ease-in duration-300 cursor-pointer">
               {" "}
               Click here to download{" "}
               <span className="text-orange-600">Class 12th </span> Study
               Material
             </h2>
-            <div className="size-6 grid place-content-center group-hover:scale-150 bg-orange-600 rounded-full absolute right-[10%] top-[50%] -translate-y-[50%] ease-in duration-300 cursor-pointer">
+            <div className="lg:size-6 size-8 grid place-content-center group-hover:scale-150 bg-orange-600 rounded-full absolute right-[10%] top-[50%] -translate-y-[50%] ease-in duration-300 cursor-pointer">
               <span className="text-sm text-black font-bold">
                 <FaDownload />
               </span>

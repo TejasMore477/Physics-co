@@ -1,7 +1,7 @@
 import React from 'react'
 function Landing() {
   return (
-    <div data-scroll data-scroll-section className='w-full h-[90vh] py-8 px-13  flex items-center justify-center'>
+    <div data-scroll data-scroll-section className='w-full h-[90vh] py-8 lg:px-13 px-10 flex items-center justify-center '>
         <div className='relative w-1/2 h-full flex flex-col items-start justify-center'>
 
            <h1 className='text-white text-[4vw] text-start w-full font-bold'>Downlode Physics Notes, PYQ's, Question Banks & more...</h1>

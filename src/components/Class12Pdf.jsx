@@ -1,5 +1,6 @@
 import React, { useContext } from 'react';
 import { DataProvider } from '../utils/Context';
+import { Link } from 'react-router-dom';
 
 function Class12Pdf() {
   // Get data from context
@@ -9,16 +10,16 @@ function Class12Pdf() {
   const class12Data = data?.class12;
 
   return (
-    <div className='w-full text-white px-16 py-5'>
-      <div>
+    <div className='w-full text-white lg:px-16 sm:px-10 py-5'>
+      <Link to='/'>
         <h1 className='font-extrabold text-4xl text-white cursor-pointer'>
           Physics<span className='text-2xl text-orange-500'>.co</span>
         </h1>
-      </div>
+      </Link>
 
-      <h2 className='text-3xl font-bold text-orange-500 text-center'>Class 12th Material</h2>
+      <h2 className='text-3xl font-bold text-orange-500 text-center lg:pt-0 md:pt-10'>Class 12th Material</h2>
 
-      <div className='mt-10 grid xl:grid-cols-5 lg:grid-cols-4  gap-5'>
+      <div className='mt-10 grid xl:grid-cols-5 lg:grid-cols-4 md:grid-cols-3 gap-5'>
         {class12Data ? (
           class12Data.map((chap, index) => (
             <div key={index} className='xl:w-56 lg:w-52 h-[40vh] border-[1px] border-gray-900'>
